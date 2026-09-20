@@ -1,0 +1,25 @@
+# Robots.txt for YITBAREK.K Portfolio & Learning Platform
+# Target: Ethiopian Software Engineer, Tech Educator & Content Creator
+User-agent: *
+Allow: /
+Allow: /projects
+Allow: /projects/*
+Allow: /blog
+Allow: /blog/*
+Allow: /tech-lessons
+Allow: /tech-lessons/*
+Allow: /ai-lessons
+Allow: /ai-lessons/*
+Allow: /about
+Allow: /cv
+Allow: /services
+Allow: /journey
+Allow: /contact
+
+# Protect Admin Management Workspace
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /api/admin/*
+
+# Sitemap reference
+Sitemap: https://ais-pre-vgz2w46oofbmcpqtqflvqd-436071125395.europe-west3.run.app/sitemap.xml
